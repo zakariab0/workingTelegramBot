@@ -1,7 +1,7 @@
 import os
 import telebot
 
-bot = telebot.TeleBot('6911546574:AAEg8NM0NMcagHlzEbJEWeYyRz7h0cQKuHI')
+bot = telebot.TeleBot('bot_token')
 @bot.message_handler(commands=['start', 'hello'])
 def send_welcome(message):
     bot.reply_to(message, "didikas l omar zbda")
